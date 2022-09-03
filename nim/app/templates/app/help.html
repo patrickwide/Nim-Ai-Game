@@ -1,0 +1,41 @@
+{% extends "app/layout.html" %} {% block body %}
+
+<div
+  style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    flex-direction: column;
+    color: #fff;
+  "
+>
+  <h1>How To Play Nim</h1>
+  <ol>
+    <li>
+      <h3>Nim is two player game.</h3>
+    </li>
+    <li>
+      <h3>In this case, that means you and the computer.</h3>
+    </li>
+    <li>
+      <h3>
+        When you start the game, four(4) piles consisting of an addition of
+        two(2) stones from top.
+      </h3>
+    </li>
+    <li>
+      <h3>
+        Both players take turns. Each turn a player must remove one or more
+        stones from a pile.
+      </h3>
+    </li>
+    <li>
+      <h3>
+        The player that takes the last stone(s) from the only remaining pile
+        looses. Easy, eh?
+      </h3>
+    </li>
+  </ol>
+</div>
+{% endblock %}
