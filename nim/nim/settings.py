@@ -24,8 +24,9 @@ SECRET_KEY = 'django-insecure-fwq0!z3##4+h9rgqrpq89e&fz11!ndk%(+d9#0a+s_(3yoail*
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = ['10.0.2.2','127.0.0.1']
+# here you can add your own server
+# '10.0.2.2' - I used this to test the api using a flutter application (Android emulator) 
+ALLOWED_HOSTS = ['10.0.2.2','127.0.0.1','patrickwide.pythonanywhere.com']
 
 
 # Application definition
