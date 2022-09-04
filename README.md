@@ -30,4 +30,4 @@ cd nim
 ```
 python manage.py runserver
 ```
-- Live test here http://patrickwide.pythonanywhere.com/app
+- Live test here (desktop mode only) http://patrickwide.pythonanywhere.com/app 
