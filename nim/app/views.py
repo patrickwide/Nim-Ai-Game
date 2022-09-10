@@ -19,9 +19,7 @@ def index(req):
 
 @csrf_exempt
 def help(req):
-    return render(req, 'app/help.html', {
-        "message":"Some message will go here"
-    })
+    return render(req, 'app/help.html')
 
 @csrf_exempt
 def game(req):
